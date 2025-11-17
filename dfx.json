@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "gs1_backend": {
+      "main": "src/gs1_backend/main.mo",
+      "type": "motoko"
+    },
+    "gs1_frontend": {
+      "dependencies": [
+        "gs1_backend"
+      ],
+      "source": [
+        "src/gs1_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "gs1_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
