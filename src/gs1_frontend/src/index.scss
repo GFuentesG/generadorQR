@@ -26,15 +26,15 @@ button[type="submit"] {
   float: right;
 }
 
-#greeting {
+#resultado {
   margin: 10px auto;
   padding: 10px 60px;
   border: 1px solid #222;
 }
 
-#greeting:empty {
+/* #resultado:empty {
   display: none;
-}
+} */
 
 .browser-warning {
   display: none;
